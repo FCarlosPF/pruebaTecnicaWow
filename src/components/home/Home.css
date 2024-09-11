@@ -1,0 +1,31 @@
+/* Contenedor de la página principal */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente los botones */
+    align-items: center; /* Centra horizontalmente los botones */
+    height: 100vh; /* Ocupa toda la altura de la vista */
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Gradiente de fondo */
+  }
+  
+  /* Estilo para los botones */
+  .home-button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px 30px; /* Espaciado interno del botón */
+    margin: 10px; /* Espaciado entre botones */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Fuente en negrita */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves para el color y el tamaño */
+    width: 200px;
+  }
+  
+  /* Estilo para el botón al pasar el cursor sobre él */
+  .home-button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el cursor */
+    transform: translateY(-3px); /* Efecto de desplazamiento hacia arriba */
+  }
+  
